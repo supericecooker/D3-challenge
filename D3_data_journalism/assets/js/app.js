@@ -75,7 +75,7 @@ chartGroup.selectAll("circle")
         .attr("cy", d => yLinearScale(d.healthcare))
         .attr("r", 11)
         .attr("fill", "pink")
-        .attr("opacity", ".8");
+        .attr("opacity", "10");
 
 // // Part 2
 // Binding the SVG to data
@@ -90,7 +90,7 @@ chartGroup.selectAll("text.text-circles")
         .attr("dy",5)
         .attr("text-anchor","middle")
         .attr("font-size","13px")
-        .attr("fill", "blue");
+        .attr("fill", "grey");
 
 //Step 10: Add color coded titles to the x-axis
 
